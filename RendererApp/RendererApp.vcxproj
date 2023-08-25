@@ -137,7 +137,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BubbleSort.cpp" />
+    <ClCompile Include="BubbleSortTester.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="SortResultDiplayer.cpp" />
+    <ClCompile Include="SortTester.cpp" />
+    <ClCompile Include="SortTesterResult.cpp" />
+    <ClCompile Include="UserInterface.cpp" />
     <ClCompile Include="vendor\imgui\backends\imgui_impl_glfw.cpp" />
     <ClCompile Include="vendor\imgui\backends\imgui_impl_opengl3.cpp" />
     <ClCompile Include="vendor\imgui\imgui.cpp" />
@@ -147,6 +153,13 @@
     <ClCompile Include="vendor\imgui\imgui_widgets.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BubbleSort.h" />
+    <ClInclude Include="BubbleSortTester.h" />
+    <ClInclude Include="SortResultDiplayer.h" />
+    <ClInclude Include="SortTester.h" />
+    <ClInclude Include="SortAlgorithm.h" />
+    <ClInclude Include="SortTesterResult.h" />
+    <ClInclude Include="UserInterface.h" />
     <ClInclude Include="vendor\imgui\backends\imgui_impl_glfw.h" />
     <ClInclude Include="vendor\imgui\backends\imgui_impl_opengl3.h" />
     <ClInclude Include="vendor\imgui\backends\imgui_impl_opengl3_loader.h" />
