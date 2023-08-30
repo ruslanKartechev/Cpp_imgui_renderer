@@ -15,7 +15,6 @@ std::shared_ptr<SortTesterResult> BubbleSortTester::RunTest()
 	result->sort_name = "Bubble";
 	result->additional_output = "no";
 	result->unsorted = CopyVector(randoms);
-	
 	SortAlgorithm* sort = new BubbleSort();
 	sort->Sort(randoms);
 	result->number_of_steps = sort->GetNumberOfSteps();
@@ -24,7 +23,7 @@ std::shared_ptr<SortTesterResult> BubbleSortTester::RunTest()
 	return result;
 }
 
-void BubbleSortTester::ShowResult(std::shared_ptr<SortTesterResult> result)
+void BubbleSortTester::PrintResults(std::shared_ptr<SortTesterResult> result)
 {
 	std::cout << "NAME: " << result->sort_name << std::endl;
 

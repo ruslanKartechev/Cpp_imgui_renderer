@@ -139,6 +139,8 @@
   <ItemGroup>
     <ClCompile Include="BubbleSort.cpp" />
     <ClCompile Include="BubbleSortTester.cpp" />
+    <ClCompile Include="GUIElement.cpp" />
+    <ClCompile Include="GUIWindow.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="SortResultDiplayer.cpp" />
     <ClCompile Include="SortTester.cpp" />
@@ -155,6 +157,8 @@
   <ItemGroup>
     <ClInclude Include="BubbleSort.h" />
     <ClInclude Include="BubbleSortTester.h" />
+    <ClInclude Include="GUIElement.h" />
+    <ClInclude Include="GUIWindow.h" />
     <ClInclude Include="SortResultDiplayer.h" />
     <ClInclude Include="SortTester.h" />
     <ClInclude Include="SortAlgorithm.h" />

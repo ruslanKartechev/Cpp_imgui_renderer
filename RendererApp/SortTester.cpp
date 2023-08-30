@@ -14,5 +14,5 @@ std::shared_ptr<std::vector<int>> SortTester::GetRandomInts(int count)
 
 std::shared_ptr<std::vector<int>> SortTester::CopyVector(std::shared_ptr<std::vector<int>> original)
 {
-	return std::shared_ptr<std::vector<int>>(original);
+	return std::shared_ptr<std::vector<int>>(new std::vector<int>(*original.get()));
 }
